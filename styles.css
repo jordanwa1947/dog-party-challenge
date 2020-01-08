@@ -2,10 +2,8 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-  font-family: 'Open Sans';
+  font-family: 'Open Sans', sans-serif;
 }
-
-
 /*
 * Light blue: `#75e2e6`
 * Dark blue: `#048eaa`
@@ -13,3 +11,14 @@
 * White text: `#ffffff`
 * Body text: `#000000`
 */
+
+
+/* freebie - if you don't like the way it was done feel free to delete, but it's not recommended you spend much time on this! */
+.hero-img {
+  background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("assets/park.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  width: 200px;
+  height: 200px;
+}
