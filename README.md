@@ -2,7 +2,7 @@
 
 ## Setup Info
 
-- Clone down [the repo linked here](https://github.com/turingschool/dog-party-challenge).
+- Clone down this repo
 - Note that some boilerplate code was provided to get you up and running a little quicker
 - You will not need to use git or push any changes up to submit, so don't worry about making a repo, removing the remote repo, etc. Just get to work
 
