@@ -2,7 +2,7 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-  font-family: 'Open Sans', sans-serif;
+  font-family: ‘Raleway’, sans-serif;
 }
 /*
 * Light blue: `#75e2e6`
@@ -14,11 +14,108 @@
 
 
 /* freebie - if you don't like the way it was done feel free to delete, but it's not recommended you spend much time on this! */
+header {
+  background-color: #75e2e6;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.main-bttn {
+  border: 5px solid #048eaa;
+  font-size: 1.2em;
+  padding: 2px 5px;
+  color: #048eaa;
+  margin-top: 17px;
+}
+
+.dog-logo {
+  height: 40px;
+  display: inline;
+  margin: 5px 30px;
+}
+
+.header-nav-links {
+  list-style: none;
+  display: inline-block;
+  margin-right: 30px;
+  margin-top: 5px;
+  float: right;
+}
+
+.header-nav-links > li {
+  font-style: none;
+  display: inline-block;
+  color: #ffffff;
+  padding: 11px;
+}
+
+.page-header {
+  font-weight: 100;
+  font-size: 2em;
+  margin-bottom: 30px;
+}
+
+.orange-pit {
+  border-radius: 50%;
+  border: 3px solid #048eaa;
+  display: block;
+  margin: auto;
+}
+
+
 .hero-img {
-  background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("assets/park.jpg");
+  background: linear-gradient( rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url("assets/park.jpg");
   background-repeat: no-repeat;
-  background-position: center;
+  background-position: top;
   background-size: cover;
-  width: 200px;
-  height: 200px;
+  height: 550px;
+  text-align: center;
+  padding: 60px;
+  margin-bottom: 50px;
+}
+
+.dog-cards {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.dog-card {
+  text-align: center;
+  margin-bottom: 60px;
+}
+
+.dog-card-img {
+  border-radius: 50%;
+  height: 230px;
+  border: 2px solid #048eaa;
+  display: block;
+  margin: auto;
+}
+
+.dog-card > h4 {
+  font-weight: 100;
+  margin-bottom: 20px;
+}
+
+.dog-card > button{
+  margin-top: 30px;
+}
+
+.dog-card > p {
+  margin: 20px;
+  margin-bottom: 0px;
+}
+
+footer {
+  background-color: #048eaa;
+  color: white;
+  text-align: center;
+}
+
+.footer-nav-links {
+  display: flex;
+  justify-content: center;
+}
+
+.footer-nav-links > img {
+  margin: 20px;
 }
